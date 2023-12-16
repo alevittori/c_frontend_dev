@@ -1,0 +1,131 @@
+/* fuentes  */
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+ /* font-family: 'Inter', sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+/* paleta de colores  */
+/* https://mycolor.space/?hex=%235D7DEB&sub=1  */
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+
+
+
+}
+
+.card{
+    width: 800px;
+    height: 450px;
+    display: flex;
+
+    border: none;
+    background-color: #D9EBFF;
+    box-shadow: 0px 0px 26px 3px rgba(0,0,0,0.75);
+
+
+}
+
+.data{
+    width: 50%;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+}
+
+.name_container{
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person_information {
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid violet; */
+}
+/* .icons{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+} */
+.person__name{
+    text-align: center;
+    text-transform: uppercase;
+}
+.person__name span{
+    color: #5D7DEB;
+}
+
+.person_telefono, .person_email, .person_adress{
+    
+    width: 100%;
+    display: flex;
+
+    /* justify-content: space-between; */
+    align-items: center;
+
+    padding: 20px;
+}
+.person_telefono i , .person_email i, .person_adress i {
+    margin-left: 20px;
+    color: #5D7DEB;
+
+    font-size: 20px;
+}
+.person_telefono div , .person_email div, .person_adress div{
+    margin-left: 20px;    
+    font-size: 18px;
+}
+
+.img_container{
+
+    /* border: 1px solid green; */
+
+    width: 50%;
+    background-color: #5D7DEB;
+    border-top-left-radius: 30% ;
+    border-bottom-left-radius: 75%;
+
+    /* box-shadow: 0px 0px 36px -8px rgba(0,0,0,0.77); */
+    box-shadow: inset 0px 0px 36px -8px rgba(0,0,0,0.77);
+    /* display: flex; */
+    position: relative;
+}
+
+.img_container img{
+    border-radius: 50%;
+    width: 60%;
+
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    box-shadow: 0px 0px 36px -8px rgba(0,0,0,0.77);
+    /* padding: 5px; */
+    /* margin: 5px; */
+
+}
